@@ -13,4 +13,4 @@ O arquivo .exe e apenas uma adiantação para que você não precise baixar o GO
 
 Baixar a linguagem: https://go.dev/
 
-Criar um arquivo .exe: no terminal dentro da pasta onde você instalou o arquivo execute o seguinte comando: go build DownDetector.go, ele ira criar um arquivo executavel para você.
+Criar um arquivo .exe: no terminal dentro da pasta onde você instalou o arquivo. Execute o seguinte comando: go build DownDetector.go, ele ira criar um arquivo executavel para você.
