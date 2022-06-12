@@ -11,8 +11,10 @@ import (
 	"time"
 )
 
-const monitoramento = 5
-const delay = 5
+const monitoramento = 50 //Modifique aqui a quantidade de vezes que você deseja que a verificação ocorra
+const delay = 30         //Modifique aqui o tempo de espera a cada verificação
+
+//So modifique o codigo abaixo se souber oque esta fazendo!
 
 func main() {
 	introdução()
@@ -37,10 +39,8 @@ func main() {
 }
 
 func introdução() {
-
-	nome := "Gustavo"
-	versão := "2.0.1"
-	fmt.Println("Olá, ", nome)
+	versão := "2.0.2"
+	fmt.Println("Olá, Usuario")
 	fmt.Println("Este programa está atualmente na versão ", versão)
 	fmt.Println("")
 }
@@ -73,7 +73,7 @@ func verificação() {
 			fmt.Println("")
 			testarSite(site)
 		}
-		time.Sleep(delay * time.Second)
+		time.Sleep(delay * time.Minute)
 		fmt.Println("")
 	}
 }
